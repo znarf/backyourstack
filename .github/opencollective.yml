@@ -1,1 +1,13 @@
-collective: backyourstack
+collective: graphql-shield
+          tiers:
+            - tiers: '*'
+              labels: ['backer']
+              message: 'Hey <link>'
+            - tiers: ['Sponsor']
+              labels: ['sponsor']
+              message: 'Hey sponsor <link>'
+          invitation: |
+            Hey <author> :wave:,
+            This is an optional message to your audience. Check the
+            default message below.
+            <link>
