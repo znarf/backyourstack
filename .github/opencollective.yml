@@ -20,7 +20,7 @@ collective: backyourstack
 
 # Post a comment on issues created by non contributors.
 
-invitation: >-
+invitation: |
   Hey <author> :wave:,\n
   Thank you for opening an issue.
   We will get back to you as soon as we can.
@@ -58,7 +58,7 @@ tiers:
   # This rule will be catching any contributor not already matched by other rules, whatever their tiers (also custom contributions)
   - tiers: '*'
     labels: ['priority']
-    message: >
+    message: |
       Hey <author> :wave:,\n
       Thank you for contributing to our project financially.
       We will handle your issue with priority support.
