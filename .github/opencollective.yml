@@ -58,14 +58,3 @@ tiers:
   #     Thank you for being a "sponsor".  We will handle your issue with priority support. To make sure we don't forget how special you are, we added a `priority` label to your issue.
   #
   #     Thank you again for contributing :tada:!
-
-  # This rule will be catching any contributor not already matched by other rules,
-  # whatever their tiers (also custom contributions)
-  - tiers: '*'
-    labels: ['priority']
-    message: |-
-      Hey <author> :wave:,
-
-      Thank you for contributing to our project financially. We will handle your issue with priority support. To make sure we don't forget how special you are, we added a `priority` label to your issue.
-
-      Thank you again for contributing :tada:!
