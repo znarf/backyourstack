@@ -35,26 +35,3 @@ invitation: |-
 
 # In this section you can define specific behavior for all supported tiers,
 # ie: "backer" "and sponsor".
-
-tiers:
-  # # Uncomment this block if you want to activate a custom comment
-  # # for people contributors to the "backer" tier
-  # - tiers: ['backer']
-  #   labels: ['priority']
-  #   message: |-
-  #     Hey <author> :wave:,
-  #
-  #     Thank you for being a "backer". We will handle your issue with priority support. To make sure we don't forget how special you are, we added a `priority` label to your issue.
-  #
-  #     Thank you again for contributing :tada:!
-
-  # # Uncomment this block if you want to activate a custom comment
-  # # for people contributors to the "sponsor" tier
-  # - tiers: ['sponsor']
-  #   labels: ['priority']
-  #   message: |-
-  #     Hey <author> :wave:,
-  #
-  #     Thank you for being a "sponsor".  We will handle your issue with priority support. To make sure we don't forget how special you are, we added a `priority` label to your issue.
-  #
-  #     Thank you again for contributing :tada:!
